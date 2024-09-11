@@ -1,7 +1,6 @@
 import sys
 import string
 
-# Im assuming that there aren't going to be trailing white spaces like this: Hello     world, but my program should still work if there is
 input = ' '.join(sys.argv[1:])
 letToBrail = {"A":"O.....", "B":"O.O...", "C":"OO....", "D":"OO.O..","E":"O..O..","F":"OOO...","G":"OOOO..","H":"O.OO..","I":".OO...","J":".OOO..","K":"O...O.","L":"O.O.O.","M":"OO..O.",
            "N":"OO.OO.","O":"O..OO.","P":"OOO.O.","Q":"OOOOO.","R":"O.OOO.","S":".OO.O.","T":".OOOO.","U":"O...OO","V":"O.O.OO","W":".OOO.O","X":"OO..OO","Y":"OO.OOO","Z":"O..OOO"," ":"......"}
